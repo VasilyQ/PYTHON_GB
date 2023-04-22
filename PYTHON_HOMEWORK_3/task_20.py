@@ -29,8 +29,7 @@ tablle_score = {'A' : 1, 'E': 1, 'I': 1, 'O': 1, 'U': 1, 'L': 1, 'N': 1, 'S': 1,
 
 sum = 0
 user_str = input('Введите слово: ')
-user_str = user_str.upper()
-for i in user_str:
+for i in user_str.upper():
     for j in tablle_score:
         if j == i:
             sum += tablle_score[j]
